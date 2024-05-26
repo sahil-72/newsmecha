@@ -1,0 +1,62 @@
+articles = [
+ 
+    {
+        
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Alex Nicholson and Sujata Rao",
+        "title": "Stocks Rise as Nvidia Results Boost Tech Companies: Markets Wrap (Bloomberg) - Yahoo Finance",
+        "description": "(Bloomberg) -- Global stocks rallied and Wall Street looked set for a new record high after blowout earnings from Nvidia Corp. reinforced belief that the...",
+        "url": "https://finance.yahoo.com/news/dollar-firms-us-yields-rise-222127525.html",
+        "urlToImage": "https://media.zenfs.com/en/bloomberg_markets_842/83eda9a0c9da9cb0fa5e8cb8452fe909",
+        "publishedAt": "2024-05-23T07:30:04Z",
+        "content": "(Bloomberg) -- Global stocks rallied and Wall Street looked set for a new record high after blowout earnings from Nvidia Corp. reinforced belief that the global artificial-intelligence boom will keep… [+3557 chars]"
+    },
+    
+    {
+        
+        "source": {
+            "id": "associated-press",
+            "name": "Associated Press"
+        },
+        "author": "ALBERTO MENDOZA",
+        "title": "High wind topples stage at Mexican rally, killing 4 - The Associated Press",
+        "description": "At least nine people are dead and 63 more injured after the collapse of a stage during a campaign rally in the northern Mexican state of Nuevo Leon. The state’s governor confirmed the tragedy and said among the dead was a child. A strong gust of wind caused t…",
+        "url": "https://apnews.com/article/mexico-election-maynez-wind-stage-knocked-over-1c4745f31a5b3caf2bce2db47d7cec12",
+        "urlToImage": "https://dims.apnews.com/dims4/default/80259b5/2147483647/strip/true/crop/6022x3387+0+314/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2Ff3%2F11c0f0e1cbf253f87ddcc1dca444%2F1c16b6a13c3f4948ae6d496596f16757",
+        "publishedAt": "2024-05-23T05:51:00Z",
+        "content": "SAN PEDRO GARZA GARCIA, Mexico (AP) A strong gust of wind toppled the stage at a campaign rally Wednesday evening in the northern Mexican state of Nuevo Leon, killing at least nine people including a… [+2505 chars]"
+    },
+    
+    {
+        
+        "source": {
+            "id": "fox-news",
+            "name": "Fox News"
+        },
+        "author": "Ashley Carnahan",
+        "title": "Netanyahu takes aim at 'rogue' ICC prosecutor after request for arrest warrants: 'Outrageous' - Fox News",
+        "description": "Israeli Prime Minister Benjamin Netanyahu says the ICC's request for arrest warrants against himself and Defense Minister Yoav Gallant are \"outrageous\" on \"Hannity.\"",
+        "url": "https://www.foxnews.com/media/netanyahu-takes-aim-rogue-icc-prosecutor-request-arrest-warrants-outrageous",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/05/netanyahu-karim-khan.jpg",
+        "publishedAt": "2024-05-23T04:43:00Z",
+        "content": "Israeli Prime Minister Benjamin Netanyahu railed against the International Criminal Court (ICC) on Wednesday for its decision earlier this week to request arrest warrants for top Israeli and Hamas of… [+3918 chars]"
+    },
+    
+    {
+        
+        "source": {
+            "id": null,
+            "name": "BBC News"
+        },
+        "author": null,
+        "title": "Nikki Haley says she is voting Trump for president - BBC.com",
+        "description": "Ms Haley was once Mr Trump's UN ambassador and was the last of his major Republican primary rivals.",
+        "url": "https://www.bbc.com/news/articles/ck77rvmp8xno",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7fb9/live/6c22a350-187e-11ef-b5cc-cb8b8c4cef5a.jpg",
+        "publishedAt": "2024-05-23T03:44:27Z",
+        "content": "Former Republican presidential candidate Nikki Haley has said she plans to vote for Donald Trump, her former opponent and boss, in the 2024 US presidential election.\r\nMs Haley, who once served as Mr … [+3274 chars]"
+    }
+]
