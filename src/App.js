@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
 import News from './components/News'
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route
-// } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
@@ -42,19 +42,18 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Navbar mode={this.state.mode} togglemode={this.toggleMode} />
+        {/* <Navbar mode={this.state.mode} togglemode={this.toggleMode} />
         <News setProgress={this.setProgress} mode={this.state.mode} category='general' />
-        <LoadingBar color='#f11946' progress={this.state.progress} />
+        <LoadingBar color='#f11946' progress={this.state.progress} /> */}
         
-        {/* <Router>
+        <Router>
         <LoadingBar
         color='#f11946'
         progress={this.state.progress}
       />
         <Navbar mode={this.state.mode} togglemode={this.toggleMode} />
         <Routes>
-            <Route exact path="/" element={<News setProgress={this.setProgress} key='home' mode={this.state.mode} category='general' />}></Route>
-            <Route exact path="/general" element={<News setProgress={this.setProgress} key='general' mode={this.state.mode} category='general' />}></Route>        
+            <Route exact path="/" element={<News setProgress={this.setProgress} key='home' mode={this.state.mode} category='world' />}></Route>        
             <Route exact path="/business" element={<News setProgress={this.setProgress} key='business' mode={this.state.mode} category='business' />}></Route>
             <Route exact path="/entertainment" element={<News setProgress={this.setProgress} key='entertainment' mode={this.state.mode} category='entertainment' />}></Route>
             <Route exact path="/health" element={<News setProgress={this.setProgress} key='health' mode={this.state.mode} category='health' />}></Route>
@@ -62,7 +61,8 @@ export default class App extends Component {
             <Route exact path="/sports" element={<News setProgress={this.setProgress} key='sports' mode={this.state.mode} category='sports' />}></Route>
             <Route exact path="/technology" element={<News setProgress={this.setProgress} key='technology' mode={this.state.mode} category='technology' />}></Route>
           </Routes>
-        </Router > */}
+        </Router >
+
       </div >
     )
   }
