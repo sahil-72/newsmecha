@@ -14,7 +14,7 @@ export default class News extends Component {
     }
 
     async componentDidMount() {
-        const url = `https://newsdata.io/api/1/latest?apikey=pub_449779ba34b500c588b45ab20d1cfe3aedf67&size=1&country=us&category=${this.props.category}`
+        const url = `https://newsdata.io/api/1/latest?apikey=pub_449779ba34b500c588b45ab20d1cfe3aedf67&size=5&country=us&category=${this.props.category}`
         this.props.setProgress(30);
         this.setState({ loading: true })
         let data = await fetch(url);
@@ -30,7 +30,7 @@ export default class News extends Component {
     }
 
         handleNext = async () => {
-        const url = `https://newsdata.io/api/1/latest?apikey=pub_449779ba34b500c588b45ab20d1cfe3aedf67&size=1&country=us&category=${this.props.category}&page=${this.state.nextPage}`
+        const url = `https://newsdata.io/api/1/latest?apikey=pub_449779ba34b500c588b45ab20d1cfe3aedf67&size=5&country=us&category=${this.props.category}&page=${this.state.nextPage}`
         this.props.setProgress(30);
         this.setState({loading: true })
         let data = await fetch(url);
